@@ -26,11 +26,11 @@ log_data/2018/11/2018-11-13-events.json
 
 And below is an example of what the data in a log file, 2018-11-12-events.json, looks like.
 
-!/Data_Modeling_ETL/images/log-data.png
+![Log Data sample](/Data_Modeling_ETL/images/log-data.png)
 
 ## Schema for Song Play Analysis
 Using the song and log datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
 
-!/Data_Modeling_ETL/images/schema.png
+![Schema Diagram](/Data_Modeling_ETL/images/schema.png)
 
 
