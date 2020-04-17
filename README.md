@@ -33,4 +33,12 @@ Using the song and log datasets, you'll need to create a star schema optimized f
 
 ![Schema Diagram](/images/schema.PNG)
 
+## ETL Process
+
+etl.py file is used to implement the ETL process
+1. Data from __Song Metadata__ files are fed to __Songs__ and __Artists__ tables
+2. Data from __User Avity log__ files are fed to populate __Songplays__, __Users__ and __Time__ tables
+
+Required SQL queries are saved in sql_queries.py file.
+
 
